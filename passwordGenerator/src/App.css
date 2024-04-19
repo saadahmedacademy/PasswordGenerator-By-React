@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(3, 3, 131);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.passwordBox{
+    width: 50vmin;
+    height: 50vmin;
+    padding: 7px;
+    border: 1px solid black;
+    background-color: rgb(25, 3, 102);
+    box-shadow: 0px 0px 15px black;
+}
+.passwordBox h3{
+    color: white;
+    margin: 1.5vmin;
+    text-align: center;  
+}
+.passwordBoxInput{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+
+}
+.passwordBoxInput input{
+    flex-basis: 70%;
+    padding: 7px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+}
+.passwordBoxInput button{
+    flex-basis: 15%;
+    padding: 7.5px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+   font-style: bold;
+}
+.copyBtn:hover {
+background-color: orange;
+color: white;
+cursor: pointer;
+
+}
+.passwordlength{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8px;
+}
+.passwordlength input{
+    flex-basis: 45%;
+    text-align: center;
+}
+.passwordUpperCase{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8px;
+}
+.passwordLowerCase{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8px;
+}
+.passwordSpecialCar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8px;
+}
+.passwordNumber{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8px;
+}
+.passwordAlpha{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 8px;
+}
+.generateBtn{
+    padding: 6px ;
+    margin:6px;
+    border-radius: 6px;
+    width: 98%;
+    border: none;
+   font-style: bold;
+   font-size: 17px;
+}
+.generateBtn:hover{
+    background-color: rgb(9, 170, 9);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width :910px) {
+    .passwordBox{
+        width: 72vmin;
+        height: 80vmin;
+    }
+    .passwordBox mainInput{
+        flex-basis: 40%;
+       text-align: center;
+}
+    }
+    @media screen and (max-width :910px) {
+        .passwordBox{
+            width: 70vmin;
+            height: 80vmin;
+        }
+        .passwordBoxInput input{
+            flex-basis: 80%;
+            padding: 5px;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            border: none;
+    }
+        }
+        @media screen and (max-width :310px) {
+            .passwordBox{
+                width: 72vmin;
+                height: 90vmin;
+            }
+            .passwordBoxInput input{
+                flex-basis: 50%;
+                padding: 5px;
+                border-top-left-radius: 6px;
+                border-bottom-left-radius: 6px;
+                border: none;
+            
+            }
+            }
